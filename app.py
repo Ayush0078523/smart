@@ -50,3 +50,6 @@ def predict_fertilizer_and_pesticide(nitrogen_level, phosphorus_level, potassium
 
     return predicted_fertilizer[0], predicted_pesticide[0]
 
+if __name__ == '__main__':
+    app.run(host="0.0.0.0",port=5000)
+
